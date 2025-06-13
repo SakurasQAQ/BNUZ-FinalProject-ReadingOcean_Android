@@ -16,7 +16,7 @@
 - **Android Studio** - 应用开发主体工具
 - **Jetpack Compose** - UI 构建工具
 - **Retrofit2** - 实现 API 数据请求
-- **Room Database** - 本地数据存储
+- **SQLite** - 本地数据存储
 - **ViewModel & LiveData** - 数据管理
 
 ### 后端 (API 接口)
