@@ -3,26 +3,49 @@
 ## 简介
 **阅读海洋 (Reading Ocean)** 是一款为儿童设计的书籍推荐应用程序，目标是加强儿童阅读兴趣和阅读经验。该应用通过在 **Android Studio** 上实现 Android 设计开发，并使用 **API 接口** 获取后台数据，提供一个便捷、可信赖的儿童阅读平台。
 
-## 主要功能
-- **儿童书籍推荐** ：根据年龄段和兴趣选择适合的书籍。
-- **书籍详情** ：提供书籍简介、图片、作者信息和用户评价。
-- **阅读记录** ：记录孩子阅读历史，便于父母统计阅读情况。
-- **搜索书籍** ：根据标题、作者、类别进行搜索。
-- **自动推荐** ：根据阅读历史和关注选择相关书籍。
-- **书架管理** ：管理自己的读书列表，标注已阅读和尚未阅读的书籍。
 
-## 主要技术模块
-### 前端 (Android App)
-- **Android Studio** - 应用开发主体工具
-- **View/XML** - UI 页面构建
-- **Retrofit2** - 实现 API 数据请求
-- **SQLite** - 本地数据存储
-- **ViewModel & LiveData** - 数据管理
+## 核心功能
 
-### 后端 (API 接口)
-- **RESTful API** - 通过 HTTP 接口获取数据
-- **Firebase Firestore / MySQL** - 数据存储解决方案
-- **Node.js / Spring Boot** - API 后端开发
+- **智能推荐**：基于用户年龄段及阅读偏好，推荐个性化书单。  
+- **书籍详情**：展示封面、简介、作者、评分与用户评论。  
+- **阅读记录**：自动统计并展示阅读时长与历史。  
+- **书架管理**：一键添加/移除，标记“已读/未读”状态。  
+- **搜索与筛选**：支持按书名、作者、分类检索并快速定位。  
+- **离线缓存**：已查看内容可在无网络时访问。
+
+---
+
+## 技术栈与架构
+
+- **Android 平台**：Java + ViewBinding + XML 布局  
+- **UI 框架**：CoordinatorLayout + AppBarLayout + RecyclerView  
+- **网络请求**：Retrofit2 + OkHttp + Gson  
+- **本地存储**：Room Database + DAO  
+- **架构模式**：MVVM（Model–View–ViewModel）+ LiveData  
+- **依赖管理**：Gradle
+
+## 项目结构
+BNUZ-FinalProject-ReadingOcean_Android/
+├─ .idea/ # IDE 配置
+├─ 应用程式 /
+│ ├─ 来源/main/
+│ │ ├─ java/com/readingocean/
+│ │ │ ├─ ui/ # 活动、适配器
+│ │ │ ├─ model/ # 实体、DAO
+│ │ │ ├─ 网络/ # API 接口
+│ │ │ ├─ repository/ # 数据仓库
+│ │ │ └─ viewmodel/ # ViewModel
+│ │ └─ 无/
+│ │ ├─ layout/ # XML 布局
+│ │ ├─ drawable/ # 图片资源
+│ │ └─ values/ # 主题、资源
+│ └─ AndroidManifest.xml
+├─ build.gradle
+├─ settings.gradle
+└─ README.md
+
+
+
 
 ## 部署
 1. 下载应用代码：
