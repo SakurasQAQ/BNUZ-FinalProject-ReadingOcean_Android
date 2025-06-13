@@ -26,7 +26,7 @@
 
 ## 项目结构
 
-'''
+```
 BNUZ-FinalProject-ReadingOcean_Android/
 ├─ .idea/ # IDE 配置
 ├─ 应用程式 /
@@ -45,7 +45,7 @@ BNUZ-FinalProject-ReadingOcean_Android/
 ├─ build.gradle
 ├─ settings.gradle
 └─ README.md
-'''
+```
 
 
 
