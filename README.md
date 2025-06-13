@@ -1,4 +1,4 @@
-# 阅读海洋 (Reading Ocean)
+![image](https://github.com/user-attachments/assets/84176e1c-8222-4199-8149-b15db9c0552c)# 阅读海洋 (Reading Ocean)
 
 ## 简介
 **阅读海洋 (Reading Ocean)** 是一款为儿童设计的书籍推荐应用程序，目标是加强儿童阅读兴趣和阅读经验。该应用通过在 **Android Studio** 上实现 Android 设计开发，并使用 **API 接口** 获取后台数据，提供一个便捷、可信赖的儿童阅读平台。
@@ -25,6 +25,8 @@
 - **依赖管理**：Gradle
 
 ## 项目结构
+
+'''
 BNUZ-FinalProject-ReadingOcean_Android/
 ├─ .idea/ # IDE 配置
 ├─ 应用程式 /
@@ -43,7 +45,7 @@ BNUZ-FinalProject-ReadingOcean_Android/
 ├─ build.gradle
 ├─ settings.gradle
 └─ README.md
-
+'''
 
 
 
