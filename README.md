@@ -14,7 +14,7 @@
 ## 主要技术模块
 ### 前端 (Android App)
 - **Android Studio** - 应用开发主体工具
-- ** View／XML** - UI 页面构建
+- **View/XML** - UI 页面构建
 - **Retrofit2** - 实现 API 数据请求
 - **SQLite** - 本地数据存储
 - **ViewModel & LiveData** - 数据管理
